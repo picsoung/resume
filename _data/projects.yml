@@ -1,0 +1,15 @@
+---
+title: Projects
+assignments:
+  - title: Project One
+    tagline: Description of project one.
+    skills: [Tech1, Tech2, Tech3]
+    link: http://example.com/project-one
+  - title: Project Two
+    tagline: Description of project two.
+    skills: [Tech4, Tech5, Tech6]
+    link: http://example.com/project-two
+  - title: Project Three
+    tagline: Description of project three.
+    skills: [Tech7, Tech8, Tech9]
+    link: http://example.com/project-three

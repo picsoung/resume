@@ -189,6 +189,7 @@ p {
     overflow: hidden;
     margin-bottom: 2px;
     display: flex;
+    justify-content: space-between;
   }
   .job-title,
   .degree,
@@ -258,12 +259,20 @@ p {
       margin-bottom: 15px;
     }
   }
+  .location {
+
+  }
 }
 
 .skillset {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-content: stretch;
   .item {
-    margin-bottom: 15px;
-    overflow: hidden;
+    margin: 0 15px 15px 0;
   }
   .level-title {
     font-size: 14px;

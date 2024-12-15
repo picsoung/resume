@@ -1,7 +1,5 @@
-{% assign projects = site.data.data.projects %}
-{% if projects %}
+{% assign projects = site.data.projects %} {% if projects %}
 <section class="section projects-section">
-
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
@@ -12,27 +10,32 @@
 
   {% if projects.intro %}
   <div class="intro">
-      <p>{{ projects.intro }}</p>
-  </div><!--//intro-->
-  {% endif %}
-
-  {% for project in projects.assignments %}
-    <div class="item">
-
-      <span class="project-title">
+    <p>{{ projects.intro }}</p>
+  </div>
+  <!--//intro-->
+  {% endif %} {% for project in projects.assignments %}
+  <div class="item">
+    <div class="project-title">
+      <div>
         {% if project.link %}
         <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-        {% else %}
-        {{ project.title }}
-        {% endif %}
-      </span>
-
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+        {% else %} {{ project.title }} {% endif %}
+      </div>
+      {% if project.award %}
+      <div>
+        <span class="badge badge-success">{{ project.award }}</span>
+      </div>
       {% endif %}
+    </div>
 
-    </div><!--//item-->
+    {% if project.tagline %}
+    <div class="project-tagline">{{ project.tagline }}</div>
+    {% endif %} {% if project.skills %}
+    <div class="project-skills">{{ project.skills | join: ', ' }}</div>
+    {% endif %}
+  </div>
+  <!--//item-->
   {% endfor %}
-
-</section><!--//section-->
+</section>
+<!--//section-->
 {% endif %}

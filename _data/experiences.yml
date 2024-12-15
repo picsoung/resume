@@ -1,0 +1,86 @@
+---
+title: Where I have worked
+info:
+  - company: Typeform
+    website: https://www.typeform.com
+    role: Developer Advocate
+    time: March 2018 - Present
+    location: San Francisco, CA | Barcelona, Spain
+    description: Empowered developers and partners to succeed on the Typeform Platform, offering APIs to integrate and extend the product in exciting ways.
+    details: |
+      - Expanded the app ecosystem to over 10,000 apps by onboarding developers and supporting their integrations.
+      - Managed the developer portal and blog, coordinating a pipeline of posts from internal and external contributors.
+      - Improved the developer onboarding experience, including redesigning the webhook developer journey.
+      - Built, shipped, and maintained strategic integrations with platforms like Intercom, Aircall, and Slack.
+      - Established the **Sales Engineering** function by collaborating with Account Executives to prepare technical insights, create end-to-end demos, craft custom solutions, respond to RFPs, and support deal closures, ensuring smooth customer onboarding.
+      - Organized webinars and developed partnerships through **Partner Engineering**, fostering collaboration with external developers.
+      - Contributed directly to product development by adding features and fixing bugs in the core product.
+      - Delivered special projects and Proof of Concept initiatives, including custom [Typeform GPT](https://chatgpt.com/g/g-YY1pw8ywY-typeform).
+
+  - company: Red Hat
+    website: https://www.redhat.com
+    role: Developer Advocate
+    time: June 2016 - March 2018
+    location: San Francisco, CA
+    description:
+    details: |
+      - Gave talks and workshops at conferences and meetups, sharing knowledge about integrating 3scale API Management technologies with Red Hat's middleware and cloud solutions.
+      - Created and organized [API Escape Room](https://developers.redhat.com/blog/2017/06/26/innovating-on-developers-events-building-the-api-escape-room) event during Red Hat Summit 2017.
+
+  - company: 3scale (acq. by Red Hat)
+    website: https://www.3scale.net
+    role: Developer Advocate
+    time: April 2013 - March 2018
+    location: San Francisco, CA | Barcelona, Spain
+    details: |
+      - Represented 3scale as an advocate for APIs, sharing best practices and showcasing the product at meetups, conferences, and community events worldwide.
+      - Organized and contributed to events such as APIStrat Conference, API Meetup Barcelona, and SpeedHack Hackathon, fostering collaboration and innovation within the API community.
+      - Partnered with the API Evangelist (Kin Lane) to co-create the open API discovery format [apis.json](http://apisjson.org) and its associated API search engine, [apis.io](http://apis.io).
+      - Authored blog posts demonstrating the potential of APIs, providing insights, tutorials, and creative use cases to inspire developers and businesses.
+
+  - company: Mailjet
+    website: https://www.mailjet.com
+    role: Developer Evangelist (contract)
+    time: January 2013 - July 2013
+    location: Europe
+    details: |
+      - Developed and maintained the Mailjet API documentation, SDKs, and client libraries.
+      - Organized and spoke at events, meetups, and hackathons to promote the Mailjet API and educate developers on email best practices.
+
+  - company: Ifeelgoods
+    website: https://www.ifeelgoods.com
+    role: Software Engineer
+    time: July 2011 - June 2012
+    location: Menlo Park, CA
+    details: |
+      - Developed Facebook applications using Ruby on Rails for the leading digital incentive solution.
+      - Designed and implemented an anti-fraud system, resulting in a patented solution.
+      - Conducted prototyping and research to explore new features and integrate partner solutions.
+
+  - company: MKGSi
+    role: Software Engineer
+    time: 2010 - 2010
+    location: Shanghai, China
+    details: |
+      - Developed the Facebook application **Singe Vert**, an interactive game where users adopt an intelligent monkey that guesses what they are thinking.
+      - Utilized PHP, MySQL, Facebook API, and FBML to create and deploy the application.
+
+  - company: Université de Moncton
+    website: https://web.umoncton.ca/umcm-greti/GRETI_english/index.htm
+    role: Research intern
+    time: Summer 2009
+    location: Moncton, Canada
+    details: |
+      - Interned at the GRETI Lab, researching the "Impact of P2P traffic on the QoS of ISP."
+      - Designed and developed a tool in C++ to analyze network traffic under various constraints.
+      - Conducted experiments and gathered insights to study the effects of P2P traffic on ISP quality of service.
+
+  - company: eFinder
+    role: Software Engineer
+    time: 2009 - 2010
+    location: Shanghai, China
+    details: |
+      - Developed the first version of EFINDER's website, the first lost and found recovery service in China, using Joomla.
+      - Designed and implemented the tag system, including a unique ID algorithm to link tags to user accounts.
+      - Built features to declare items as lost or found, facilitating connections between finders and owners.
+      - Customized Joomla to create a seamless and secure platform for recovering lost items.

@@ -1,0 +1,159 @@
+.noprint{
+	display: none;
+}
+
+.noScreen{}
+
+.printonly{
+	display:block;
+}
+
+@page {
+      size: auto;
+      margin: 5%;
+      margin-top:5%;
+      margin-bottom:1%;
+  }
+
+a:link {
+    color: blue;
+}
+
+/*prevent links from being inserted into the page*/
+a:link:after, a:visited:after {
+    content: "";
+}
+
+body{
+	padding:0px;
+}
+
+.wrapper{
+	margin:0px;
+	padding:0px;
+}
+
+.main-wrapper{
+	padding:0px;
+	margin: 0px;
+}
+
+.sidebar-wrapper .name{
+	position: absolute;
+	left: 32%;
+    top: -5px;
+}
+
+.sidebar-wrapper{
+	margin:0px;
+	padding: 5%;
+	min-height: 0px;
+	padding-bottom: 0px;
+}
+
+.side-wrapper .contact-container{
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 0px;
+}
+
+.sidebar-wrapper .email {
+    font-size: 14px;
+}
+
+.sidebar-wrapper .education-container {
+  float:right;
+  margin: 3%;
+}
+
+.sidebar-wrapper .languages-container{
+	float:right;
+	margin: 3%;
+}
+
+.sidebar-wrapper .languages-list li {
+    margin-bottom: 0px;
+}
+
+.sidebar-wrapper .contact-list li {
+  margin-bottom: 0px;
+  float:left;
+  padding-right:2%;
+}
+
+.sidebar-wrapper .container-block {
+  padding: 0px;
+}
+
+.sidebar-wrapper .profile-container{
+	padding: 0px;
+}
+
+.sidebar-wrapper .tagline{
+	
+}
+
+.main-wrapper .section-title{
+	margin-bottom:0px;
+	margin-top: 5px;
+}
+
+.main-wrapper .summary-section{
+	margin-top:5%;
+}
+
+.main-wrapper .summary {
+	margin-left: 5%;
+}
+
+.main-wrapper .time{
+	position: absolute;
+    right: 0;
+    top: -10px;
+}
+
+.main-wrapper .experiences-section .item {
+	margin-bottom:0px;
+	margin-left: 5%;
+}
+
+.experiences-section .time {
+	margin-top: 0.5em;
+}
+
+.main-wrapper .company {
+    margin-bottom: 0px;
+}
+
+.main-wrapper .section {
+    margin-bottom: 0px;
+}
+
+
+.main-wrapper .projects-section .intro {
+    margin-bottom: 0px;
+    display:none;
+}
+
+.main-wrapper .projects-section ul{
+	margin-left:3%;
+}
+
+.skillset .item{
+	float:left;
+}
+
+.main-wrapper .skills-section .skillset{
+/*	margin-top: 5px;*/
+	margin-bottom: 0px;
+	margin: 0px;
+	margin-left: 5%;
+}
+
+.skillset .level-title::after{
+	content: ",\00a0";
+}
+
+.footer .printonly{
+	text-align:center;
+}
