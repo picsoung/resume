@@ -7,7 +7,7 @@ assignments:
       Assistant knowledge is automatically Sync with Storybook stories.
       Shows the generated snippet and a preview of the component.
       Also accepts link from Figma.
-    image: /assets/images/projects/v0-assistant.png
+    image: /assets/images/projects/v0-assistant.jpg
     skills: [NextJS, OpenAI Assistant, Storybook, Figma API]
   - title: ONA (Oficina de Navegació Administrativa)
     tagline: | 
@@ -15,12 +15,12 @@ assignments:
       Describe your profile and the app will show you the benefits you might be eligible for.
     skills: [Aina TTS + STT, Mistral completion, Mistral Embedding, NextJS, Tailwind]
     link: https://youtu.be/pdZY4fSlRjM
-    image: /assets/images/projects/ona.png
+    image: /assets/images/projects/ona.jpg
   - title: Instacaption
     tagline: |
       Instacaption.io is a web app I built in 2023 for the Decibel.VC hackathon to simplify and enhance Instagram caption creation.
       The app uses cutting-edge AI technologies to analyze uploaded pictures, extract relevant keywords with CLIP models, and generate creative captions using GPT-3.5.
       Users can customize the output based on different criteria, making the tool versatile for various tones and contexts.
     skills: [GPT 3.5, Replicate, NextJS, Tailwind]
-    image: /assets/images/projects/instacaption.png
+    image: /assets/images/projects/instacaption.jpg
     link: http://instacaption.io
