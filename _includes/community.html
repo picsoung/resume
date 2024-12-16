@@ -1,19 +1,20 @@
-{% assign projects = site.data.projects %} {% if projects %}
+{% assign community_projects = site.data.community_projects %} {% if
+community_projects %}
 <section class="section projects-section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
     </span>
-    {{ projects.title }}
+    {{ community_projects.title }}
   </h2>
 
-  {% if projects.intro %}
+  {% if community_projects.intro %}
   <div class="intro">
     <p>{{ projects.intro }}</p>
   </div>
   <!--//intro-->
-  {% endif %} {% for project in projects.assignments %}
+  {% endif %} {% for project in community_projects.assignments %}
   <div class="item">
     <div class="project-title">
       <div>
@@ -21,6 +22,8 @@
         <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
         {% else %} {{ project.title }} {% endif %}
       </div>
+      <div class="time">{{ project.time }}</div>
+
       {% if project.award %}
       <div>
         <span class="badge badge-success">{{ project.award }}</span>
@@ -40,23 +43,21 @@
         {% endif %}
       </div>
       <div class="project-image" style="flex: 1; text-align: right">
-        {% if project.image %}
-          {% if project.link %}
-          <a href="{{ project.link }}" target="_blank">
-            <img
-              src="{{ project.image }}"
-              alt="{{ project.title }}"
-              style="max-width: 100%; height: auto"
-            />
-          </a>
-          {% else %}
+        {% if project.image %} {% if project.link %}
+        <a href="{{ project.link }}" target="_blank">
           <img
             src="{{ project.image }}"
             alt="{{ project.title }}"
             style="max-width: 100%; height: auto"
           />
-          {% endif %}
-        {% endif %}
+        </a>
+        {% else %}
+        <img
+          src="{{ project.image }}"
+          alt="{{ project.title }}"
+          style="max-width: 100%; height: auto"
+        />
+        {% endif %} {% endif %}
       </div>
     </div>
     <!-- {% if project.tagline %}

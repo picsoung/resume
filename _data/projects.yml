@@ -1,14 +1,6 @@
 ---
 title: Projects
 assignments:
-  - title: v0 for own design system
-    tagline: |
-      During internal hackathon, built an Assistant replicating the v0 experience to create UI based on the company's design system. 
-      Assistant knowledge is automatically Sync with Storybook stories.
-      Shows the generated snippet and a preview of the component.
-      Also accepts link from Figma.
-    image: ./assets/images/projects/v0-assistant.jpg
-    skills: [NextJS, OpenAI Assistant, Storybook, Figma API]
   - title: ONA (Oficina de Navegació Administrativa)
     tagline: | 
       During hackathon organized by Generalitat de Catalunya, built a simple RAG web app to help citizens navigate the administrative procedures.
@@ -16,7 +8,18 @@ assignments:
     skills: [Aina TTS + STT, Mistral completion, Mistral Embedding, NextJS, Tailwind]
     link: https://youtu.be/pdZY4fSlRjM
     image: ./assets/images/projects/ona.jpg
+    time: November 2024
+  - title: v0 for own design system
+    tagline: |
+      During internal hackathon, built an Assistant replicating the v0 experience to create UI based on the company's design system. 
+      Assistant knowledge is automatically Sync with Storybook stories.
+      Shows the generated snippet and a preview of the component.
+      Also accepts link from Figma.
+    image: ./assets/images/projects/v0-assistant.jpg
+    time: August 2024
+    skills: [NextJS, OpenAI Assistant, Storybook, Figma API]
   - title: Instacaption
+    time: 2023
     tagline: |
       Instacaption.io is a web app I built in 2023 for the Decibel.VC hackathon to simplify and enhance Instagram caption creation.
       The app uses cutting-edge AI technologies to analyze uploaded pictures, extract relevant keywords with CLIP models, and generate creative captions using GPT-3.5.

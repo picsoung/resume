@@ -1,0 +1,22 @@
+---
+title: Community Projects
+assignments:
+  - title: HackBarna
+    tagline: |
+      Organized the first AI hackathon in Barcelona in June 2024. 300 applications, 60 selected hackers, 18 projects presented.
+      
+      Event supported by Hugging Face, Mistral, Algolia, Replexica, Hookdeck, eDreams ODIGEO and InnoIT.
+      
+      Working on a second edition for Mobile World Congress 2025.
+    time: June 2024
+    image: ./assets/images/community-projects/hackbarna.png
+    link: https://hackbarna.com
+  - title: DrinkEntrepreneurs
+    tagline: | 
+      DrinkEntrepreneurs is a laid back monthly event where entrepreneurs enjoy hanging out with fellow hackers and startupers.
+      
+      Events are happening in 60+ cities in more than 10 countries.
+
+      Hosted San Francisco and Barcelona chapters while coordinating with the global network.
+    link: https://www.linkedin.com/company/5347656
+    image: ./assets/images/community-projects/drinkentrepreneurs.png
