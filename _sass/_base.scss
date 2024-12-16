@@ -223,6 +223,12 @@ p {
     margin-bottom: 5px;
     color: darken($theme-color, 15%);
   }
+  .project-skills {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: lighten($text-color, 20%);
+    font-style: italic;
+  }
   .projects-section {
     .intro {
       margin-bottom: 30px;

@@ -28,11 +28,26 @@
       {% endif %}
     </div>
 
-    {% if project.tagline %}
-    <div class="project-tagline">{{ project.tagline }}</div>
+    <div class="project-content" style="display: flex; justify-content: space-between;">
+      <div class="project-details" style="flex: 1;">
+        {% if project.tagline %}
+        <div class="project-tagline">{{ project.tagline | markdownify }}</div>
+        {% endif %}
+        {% if project.skills %}
+        <div class="project-skills">{{ project.skills | join: ', ' }}</div>
+        {% endif %}
+      </div>
+      <div class="project-image" style="flex: 1; text-align: right;">
+        {% if project.image %}
+        <img src="{{ project.image }}" alt="{{ project.title }}" style="max-width: 100%; height: auto;">
+        {% endif %}
+      </div>
+    </div>
+    <!-- {% if project.tagline %}
+    <div class="project-tagline">{{ project.tagline | markdownify }}</div>
     {% endif %} {% if project.skills %}
     <div class="project-skills">{{ project.skills | join: ', ' }}</div>
-    {% endif %}
+    {% endif %} -->
   </div>
   <!--//item-->
   {% endfor %}

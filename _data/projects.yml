@@ -1,15 +1,26 @@
 ---
 title: Projects
 assignments:
-  - title: Project One
-    tagline: Description of project one.
-    skills: [Tech1, Tech2, Tech3]
-    link: http://example.com/project-one
-  - title: Project Two
-    tagline: Description of project two.
-    skills: [Tech4, Tech5, Tech6]
-    link: http://example.com/project-two
-  - title: Project Three
-    tagline: Description of project three.
-    skills: [Tech7, Tech8, Tech9]
-    link: http://example.com/project-three
+  - title: v0 for own design system
+    tagline: |
+      During internal hackathon, built an Assistant replicating the v0 experience to create UI based on the company's design system. 
+      Assistant knowledge is automatically Sync with Storybook stories.
+      Shows the generated snippet and a preview of the component.
+      Also accepts link from Figma.
+    image: /assets/images/projects/v0-assistant.png
+    skills: [NextJS, OpenAI Assistant, Storybook, Figma API]
+  - title: ONA (Oficina de Navegació Administrativa)
+    tagline: | 
+      During hackathon organized by Generalitat de Catalunya, built a simple RAG web app to help citizens navigate the administrative procedures.
+      Describe your profile and the app will show you the benefits you might be eligible for.
+    skills: [Aina TTS + STT, Mistral completion, Mistral Embedding, NextJS, Tailwind]
+    link: https://youtu.be/pdZY4fSlRjM
+    image: /assets/images/projects/ona.png
+  - title: Instacaption
+    tagline: |
+      Instacaption.io is a web app I built in 2023 for the Decibel.VC hackathon to simplify and enhance Instagram caption creation.
+      The app uses cutting-edge AI technologies to analyze uploaded pictures, extract relevant keywords with CLIP models, and generate creative captions using GPT-3.5.
+      Users can customize the output based on different criteria, making the tool versatile for various tones and contexts.
+    skills: [GPT 3.5, Replicate, NextJS, Tailwind]
+    image: /assets/images/projects/instacaption.png
+    link: http://instacaption.io
