@@ -199,11 +199,13 @@ p {
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 500;
-    flex: 75%;
+    // flex: 75%;
   }
-  .time,
+  .time {
+    color: $text-grey;
+  }
   .cert-url {
-    position: absolute;
+    position: relative;
     right: 0;
     top: 0;
     color: $text-grey;
