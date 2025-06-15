@@ -1,21 +1,41 @@
 ---
 title: Projects
 assignments:
+  - title: Bnbicons
+    tagline: |
+      Create your own Airbnb-lke icons with AI.
+      Built with [Lovable](https://lovable.dev/invite/e4a81b25-6cfb-41f4-bb4f-17ebd7230453), Supabase, Replicate and Hugging Face. 
+      Reached \#2 on [Product Hunt](https://www.producthunt.com/products/bnbicons) on launch day.
+      14k+ icons, 4k+ users
+    skills: [Tailwind, Lovable, Replicate, Hugging Face, Supabase, Lingo.dev]
+    link: https://bnbicons.com
+    image: ./assets/images/projects/bnbicons_screenshot.jpeg
+    time: May 2025
   - title: Gamepal - AI Agent Gamer Tip line
-    tagline: | 
+    tagline: |
       Revive the 90s gaming tip line with AI.
       Built during [Elevenlabs Worldwide hackathon](https://hackathon.elevenlabs.io/). 
       Gamepal is an AI agent that helps gamers stuck in a game by providing tips and hints.
       Trained on a dataset of game walkthroughs and FAQs, Gamepal can understand the context of the player's question and provide relevant tips. But also crawl the web when the answer is not part of the knowledge base.
-    skills: [Vite, Tailwind, Lovable, Elevenlabs Conversational AI, OpenAI, Firecrawl, ExaAI]
+    skills:
+      [
+        Vite,
+        Tailwind,
+        Lovable,
+        Elevenlabs Conversational AI,
+        OpenAI,
+        Firecrawl,
+        ExaAI,
+      ]
     link: https://gamepal.lovable.app/
     image: ./assets/images/projects/gamepal.png
     time: February 2025
   - title: ONA (Oficina de Navegació Administrativa)
-    tagline: | 
+    tagline: |
       During hackathon organized by Generalitat de Catalunya, built a simple RAG web app to help citizens navigate the administrative procedures.
       Describe your profile and the app will show you the benefits you might be eligible for.
-    skills: [Aina TTS + STT, Mistral completion, Mistral Embedding, NextJS, Tailwind]
+    skills:
+      [Aina TTS + STT, Mistral completion, Mistral Embedding, NextJS, Tailwind]
     link: https://youtu.be/pdZY4fSlRjM
     image: ./assets/images/projects/ona.jpg
     time: November 2024
