@@ -1,12 +1,20 @@
 ---
 title: Projects
 assignments:
+  - title: ContractionTrack.com
+    tagline: |
+      Built in the delivery room while my wife was in labour! When her contraction timer app suddenly asked for login and showed ads, I grabbed my phone and built this in 30 minutes. No logins, no ads, no paywall - just a focused tool to track contractions.
+      Features vibration feedback, offline functionality, dark mode, and export to WhatsApp/Notes.
+    skills: [Lovable, Mobile, Lingo.dev, Tailwind]
+    link: https://contractiontrack.com
+    image: ./assets/images/projects/contractiontrack.com.png
+    time: August 2025
   - title: Bnbicons
     tagline: |
       Create your own Airbnb-lke icons with AI.
       Built with [Lovable](https://lovable.dev/invite/e4a81b25-6cfb-41f4-bb4f-17ebd7230453), Supabase, Replicate and Hugging Face. 
       Reached \#2 on [Product Hunt](https://www.producthunt.com/products/bnbicons) on launch day.
-      14k+ icons, 4k+ users
+      21k+ icons, 6k+ users
     skills: [Tailwind, Lovable, Replicate, Hugging Face, Supabase, Lingo.dev]
     link: https://bnbicons.com
     image: ./assets/images/projects/bnbicons_screenshot.jpeg
